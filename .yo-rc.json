@@ -1,0 +1,42 @@
+{
+  "generator-anubhav-btp-cap": {
+    "projectName": "app",
+    "newDir": true,
+    "displayName": "App",
+    "description": "Business Application",
+    "schemaName": "",
+    "hana": true,
+    "hanaNative": true,
+    "api": true,
+    "apiLoB": [
+      "SAP S/4HANA Cloud Sales Order (A2X)",
+      "SAP S/4HANA Cloud Business Partner (A2X)"
+    ],
+    "authentication": true,
+    "authorization": true,
+    "attributes": false,
+    "v2support": false,
+    "ui": true,
+    "html5repo": false,
+    "customDomain": "",
+    "multiTenant": false,
+    "em": false,
+    "cicd": true,
+    "applicationLogging": false,
+    "buildDeploy": false,
+    "hanaEndpoint": "",
+    "schemaUPS": false,
+    "apiS4HCSO": true,
+    "apiS4HCBP": true,
+    "apiSFSFRC": false,
+    "systemName": "",
+    "srvPath": "/",
+    "managedAppRouter": false,
+    "routes": false,
+    "emNamespace": "",
+    "emClientId": "",
+    "cforg": "kddev",
+    "cfspace": "dev",
+    "cfapi": "https://api.cf.us10-001.hana.ondemand.com"
+  }
+}
